@@ -184,7 +184,7 @@ export default function Home() {
         <div className="container">
           <div className="section-header reveal visible">
             <div className="section-label">🛍️ Shop by Category</div>
-            <h2 class="section-title">Find Your Perfect <span className="highlight">Pair</span></h2>
+            <h2 className="section-title">Find Your Perfect <span className="highlight">Pair</span></h2>
             <p className="section-subtitle">From sports to formal, we have every style covered for Men, Women, and Kids</p>
           </div>
 
@@ -360,7 +360,7 @@ export default function Home() {
             </div>
             <div className="trust-card">
               <span className="trust-icon">💰</span>
-              <h3 class="trust-title">Best Prices in Moradabad</h3>
+              <h3 className="trust-title">Best Prices in Moradabad</h3>
               <p className="trust-desc">Humari prices beat karna mushkil hai. Kahin aur sasta mile to bata dein — hum match karenge!</p>
             </div>
             <div className="trust-card">

@@ -326,6 +326,15 @@ ul, ol {
 .hamburger.active span:nth-child(2) { opacity: 0; }
 .hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
+.navbar.scrolled .hamburger {
+  background: var(--bg-elevated);
+  border-color: var(--border);
+}
+
+.navbar.scrolled .hamburger span {
+  background: var(--text-primary);
+}
+
 .mobile-menu {
   display: none;
   position: fixed;

@@ -1407,6 +1407,11 @@
   .chatbot-window { width: 300px; }
   .enquiry-form .form-grid { grid-template-columns: 1fr; }
   .map-buttons { grid-template-columns: 1fr; }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg) var(--space-md);
+  }
 }
 
 @media (max-width: 480px) {
