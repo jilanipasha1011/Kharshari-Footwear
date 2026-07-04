@@ -405,7 +405,10 @@ export default function About() {
                       <div className="testimonial-avatar">{t.initial}</div>
                       <div>
                         <div className="testimonial-name">{t.name}</div>
-                        <div className="testimonial-location">📍 {t.location}</div>
+                        <div className="testimonial-location">
+                          <img src="/assets/images/location_pin.png" alt="Location" style={{ display: 'inline-block', height: '1em', verticalAlign: '-0.1em', marginRight: '0.25rem' }} />
+                          {t.location}
+                        </div>
                       </div>
                       <div style={{ marginLeft: 'auto', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
                         ✅ Verified
@@ -476,15 +479,16 @@ export default function About() {
               👟 Browse Products
             </Link>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919639890966"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp btn-lg"
             >
               💬 WhatsApp Us
             </a>
-            <Link to="/contact" className="btn btn-secondary btn-lg">
-              📍 Find Our Store
+            <Link to="/contact" className="btn btn-secondary btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+              <img src="/assets/images/location_pin.png" alt="Location" style={{ height: '1.2em', width: 'auto', objectFit: 'contain' }} />
+              Find Our Store
             </Link>
           </div>
         </div>

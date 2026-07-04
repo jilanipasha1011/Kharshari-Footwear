@@ -257,6 +257,9 @@
 .brand-logo-emoji {
   font-size: 3rem;
   line-height: 1;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
 }
 
 .brand-logo-name {

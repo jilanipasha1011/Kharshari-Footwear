@@ -69,7 +69,7 @@ export default function ProductCard({ product }) {
           </button>
           <a
             className="product-action-btn"
-            href={`https://wa.me/919876543210?text=${waMsg}`}
+            href={`https://wa.me/919639890966?text=${waMsg}`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
@@ -112,7 +112,7 @@ export default function ProductCard({ product }) {
           </button>
           <a
             className="whatsapp-quick-btn"
-            href={`https://wa.me/919876543210?text=${waMsg}`}
+            href={`https://wa.me/919639890966?text=${waMsg}`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}

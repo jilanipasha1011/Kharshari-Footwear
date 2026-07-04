@@ -37,7 +37,7 @@ export default function Footer() {
                 👍
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919639890966"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-social-btn"
@@ -45,7 +45,7 @@ export default function Footer() {
               >
                 💬
               </a>
-              <a href="tel:+919876543210" className="footer-social-btn" title="Phone">
+              <a href="tel:+919639890966" className="footer-social-btn" title="Phone">
                 📞
               </a>
             </div>
@@ -77,19 +77,21 @@ export default function Footer() {
           <div>
             <div className="footer-heading">Contact</div>
             <div className="footer-contact-item">
-              <span className="footer-contact-icon">📍</span>
+              <span className="footer-contact-icon">
+                <img src="/assets/images/location_pin.png" alt="Location" style={{ width: '1.2em', height: '1.2em', objectFit: 'contain', display: 'inline-block', verticalAlign: 'middle' }} />
+              </span>
               <span>Dingerpur, Pakwara Road, Moradabad, Uttar Pradesh</span>
             </div>
             <div className="footer-contact-item">
               <span className="footer-contact-icon">📞</span>
-              <a href="tel:+919876543210" style={{ color: 'inherit' }}>
-                +91-9876543210
+              <a href="tel:+919639890966" style={{ color: 'inherit' }}>
+                +91-9639890966
               </a>
             </div>
             <div className="footer-contact-item">
               <span className="footer-contact-icon">💬</span>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919639890966"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: 'inherit' }}
@@ -103,7 +105,7 @@ export default function Footer() {
             </div>
             <div style={{ marginTop: '1rem' }}>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919639890966"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-sm"

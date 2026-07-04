@@ -67,7 +67,7 @@ export default function Navbar() {
           <button className="theme-toggle" id="themeToggle" onClick={toggleTheme} title="Toggle Dark/Light Mode">
             {theme === 'dark' ? '☀️' : '🌙'}
           </button>
-          <a href="tel:+919876543210" className="nav-call-btn">
+          <a href="tel:+919639890966" className="nav-call-btn">
             📞 Call Now
           </a>
         </div>
@@ -99,11 +99,11 @@ export default function Navbar() {
           📞 Contact
         </NavLink>
         <div style={{ paddingTop: '1rem', display: 'flex', gap: '1rem' }}>
-          <a href="tel:+919876543210" className="btn btn-primary btn-sm" style={{ flex: 1 }}>
+          <a href="tel:+919639890966" className="btn btn-primary btn-sm" style={{ flex: 1 }}>
             📞 Call
           </a>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919639890966"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp btn-sm"

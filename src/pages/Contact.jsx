@@ -49,7 +49,7 @@ export default function Contact() {
     msg += `━━━━━━━━━━━━━━━━━━\n`;
     msg += `_Sent via Kharshari Footwear Website_`;
 
-    const waUrl = `https://wa.me/919876543210?text=${encodeURIComponent(msg)}`;
+    const waUrl = `https://wa.me/919639890966?text=${encodeURIComponent(msg)}`;
 
     setIsSuccess(true);
     showToast('Enquiry bhej diya! WhatsApp khul raha hai... 💬', 'success', 4000);
@@ -148,7 +148,7 @@ export default function Contact() {
         <div className="container">
           <div className="grid-4 reveal-stagger visible" style={{ gap: '1.5rem', marginTop: '-3rem', position: 'relative', zIndex: 5 }}>
             <a
-              href="tel:+919876543210"
+              href="tel:+919639890966"
               className="card"
               style={{ padding: '2rem', textAlign: 'center', textDecoration: 'none', borderTop: '3px solid var(--primary)' }}
             >
@@ -165,12 +165,12 @@ export default function Contact() {
               >
                 Call Us
               </div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9876543210</div>
+              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9639890966</div>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Tap to call instantly</div>
             </a>
 
             <a
-              href="https://wa.me/919876543210?text=Namaste!%20Kharshari%20Footwear%20se%20baat%20karni%20hai."
+              href="https://wa.me/919639890966?text=Namaste!%20Kharshari%20Footwear%20se%20baat%20karni%20hai."
               target="_blank"
               rel="noopener noreferrer"
               className="card"
@@ -189,12 +189,12 @@ export default function Contact() {
               >
                 WhatsApp
               </div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9876543210</div>
+              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9639890966</div>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Quick reply guaranteed</div>
             </a>
 
             <div className="card" style={{ padding: '2rem', textAlign: 'center', borderTop: '3px solid var(--accent)' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📍</div>
+              <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}></div>
               <div
                 style={{
                   fontSize: '0.75rem',
@@ -326,11 +326,11 @@ export default function Contact() {
 
               {/* Direct Action Buttons */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <a href="tel:+919876543210" className="btn btn-primary">
-                  📞 Call Now — +91-9876543210
+                <a href="tel:+919639890966" className="btn btn-primary">
+                  📞 Call Now — +91-9639890966
                 </a>
                 <a
-                  href="https://wa.me/919876543210?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20baare%20mein%20enquiry%20karna%20chahta%20hoon."
+                  href="https://wa.me/919639890966?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20baare%20mein%20enquiry%20karna%20chahta%20hoon."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -443,7 +443,10 @@ export default function Contact() {
       <section className="section map-section" style={{ background: 'var(--bg-base)' }} id="map-section">
         <div className="container">
           <div className="section-header reveal visible">
-            <div className="section-label">📍 Find Our Store</div>
+            <div className="section-label" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', justifyContent: 'center' }}>
+              <img src="/assets/images/location_pin.png" alt="Location" style={{ height: '1.2em', width: 'auto', objectFit: 'contain' }} />
+              Find Our Store
+            </div>
             <h2 className="section-title">
               We're Right <span className="highlight">Here</span>
             </h2>
@@ -460,7 +463,9 @@ export default function Contact() {
                 </div>
               </div>
               <div className="map-info-item">
-                <div className="map-info-icon">📍</div>
+                <div className="map-info-icon">
+                  <img src="/assets/images/location_pin.png" alt="Location" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+                </div>
                 <div>
                   <div className="map-info-title">Full Address</div>
                   <div className="map-info-value">Dingerpur, Pakwara Road,<br />Moradabad, Uttar Pradesh – 244001</div>
@@ -483,8 +488,8 @@ export default function Contact() {
                 <div>
                   <div className="map-info-title">Phone / WhatsApp</div>
                   <div className="map-info-value">
-                    <a href="tel:+919876543210" style={{ color: 'var(--primary)' }}>
-                      +91-9876543210
+                    <a href="tel:+919639890966" style={{ color: 'var(--primary)' }}>
+                      +91-9639890966
                     </a>
                   </div>
                 </div>
@@ -505,9 +510,9 @@ export default function Contact() {
               </div>
 
               <div className="map-buttons">
-                <a href="tel:+919876543210" className="btn btn-primary">📞 Call Now</a>
+                <a href="tel:+919639890966" className="btn btn-primary">📞 Call Now</a>
                 <a
-                  href="https://wa.me/919876543210?text=Directions%20chahiye%20Kharshari%20Footwear%20tak"
+                  href="https://wa.me/919639890966?text=Directions%20chahiye%20Kharshari%20Footwear%20tak"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -515,7 +520,7 @@ export default function Contact() {
                   💬 WhatsApp
                 </a>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Kharshari+Footwear+Dingerpur+Pakwara+Road+Moradabad+UP"
+                  href="https://maps.app.goo.gl/Vsoi2rzu7CFqP9j8A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
@@ -524,7 +529,7 @@ export default function Contact() {
                   🗺️ Get Directions on Google Maps
                 </a>
                 <a
-                  href="https://www.google.com/search?q=Kharshari+Footwear+Moradabad+reviews"
+                  href="https://maps.app.goo.gl/Vsoi2rzu7CFqP9j8A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn"
@@ -537,7 +542,7 @@ export default function Contact() {
 
             <div className="map-embed">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3493.4!2d78.7733!3d28.8386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sDingerpur%2C+Pakwara+Road%2C+Moradabad!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.8082295148415!2d78.7107277752927!3d28.725276575614227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ae300252d141f%3A0xc65e5d56030752e8!2sKharsari%20footwear!5e0!3m2!1sen!2sin!4v1783185821098!5m2!1sen!2sin"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -562,7 +567,7 @@ export default function Contact() {
 
           <div className="social-grid reveal-stagger visible">
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919639890966"
               target="_blank"
               rel="noopener noreferrer"
               className="social-card"

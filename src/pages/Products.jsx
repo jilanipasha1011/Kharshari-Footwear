@@ -181,11 +181,11 @@ export default function Products() {
                 <div className="filter-group-title">Brand</div>
                 <div className="filter-options">
                   {[
-                    { name: 'Puma', emoji: '🐆' },
-                    { name: 'Nike', emoji: '✔️' },
-                    { name: 'Red Tape', emoji: '🎯' },
-                    { name: 'One8', emoji: '👑' },
-                    { name: 'Hummer', emoji: '🚛' },
+                    { name: 'Puma' },
+                    { name: 'Nike' },
+                    { name: 'Red Tape' },
+                    { name: 'One8' },
+                    { name: 'Hummer' },
                   ].map((brand) => (
                     <label key={brand.name} className="filter-option">
                       <input
@@ -279,7 +279,7 @@ export default function Products() {
                   WhatsApp pe puchein — hum arrange kar sakte hain!
                 </div>
                 <a
-                  href="https://wa.me/919876543210?text=Mujhe%20ek%20specific%20size%20chahiye"
+                  href="https://wa.me/919639890966?text=Mujhe%20ek%20specific%20size%20chahiye"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp btn-sm"

@@ -89,15 +89,16 @@ export default function Home() {
                 👟 Shop Now
               </Link>
               <a
-                href="https://wa.me/919876543210?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20products%20dekhna%20chahta%20hoon."
+                href="https://wa.me/919639890966?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20products%20dekhna%20chahta%20hoon."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-lg"
               >
                 💬 WhatsApp Us
               </a>
-              <a href="#map-section" className="btn btn-outline btn-lg">
-                📍 Find Us
+              <a href="#map-section" className="btn btn-outline btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                <img src="/assets/images/location_pin.png" alt="Location" style={{ height: '1.2em', width: 'auto', objectFit: 'contain' }} />
+                Find Us
               </a>
             </div>
 
@@ -132,44 +133,44 @@ export default function Home() {
           <div className="marquee-track" id="marqueeTrack">
             {/* Original set */}
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🐆</div>
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
               <div className="brand-logo-name">PUMA</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">✔️</div>
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
               <div className="brand-logo-name">NIKE</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🎯</div>
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
               <div className="brand-logo-name">RED TAPE</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">👑</div>
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
               <div className="brand-logo-name">ONE8</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🚛</div>
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
               <div className="brand-logo-name">HUMMER</div>
             </div>
             {/* Duplicate for seamless loop */}
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🐆</div>
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
               <div className="brand-logo-name">PUMA</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">✔️</div>
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
               <div className="brand-logo-name">NIKE</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🎯</div>
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
               <div className="brand-logo-name">RED TAPE</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">👑</div>
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
               <div className="brand-logo-name">ONE8</div>
             </div>
             <div className="brand-logo-item">
-              <div className="brand-logo-emoji">🚛</div>
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
               <div className="brand-logo-name">HUMMER</div>
             </div>
           </div>
@@ -298,7 +299,7 @@ export default function Home() {
                 <div className="offer-title">Buy 2 Get 1 Free</div>
                 <div className="offer-desc">On selected styles — limited time</div>
               </div>
-              <a href="https://wa.me/919876543210?text=Buy%202%20Get%201%20offer%20ke%20baare%20mein%20poochna%20hai" target="_blank" rel="noopener noreferrer" className="offer-cta">Enquire →</a>
+              <a href="https://wa.me/919639890966?text=Buy%202%20Get%201%20offer%20ke%20baare%20mein%20poochna%20hai" target="_blank" rel="noopener noreferrer" className="offer-cta">Enquire →</a>
             </div>
 
             <div className="offer-banner offer-banner-3">
@@ -416,7 +417,10 @@ export default function Home() {
                       <div className="testimonial-avatar">{t.initial}</div>
                       <div>
                         <div className="testimonial-name">{t.name}</div>
-                        <div className="testimonial-location">📍 {t.location}</div>
+                        <div className="testimonial-location">
+                          <img src="/assets/images/location_pin.png" alt="Location" style={{ display: 'inline-block', height: '1em', verticalAlign: '-0.1em', marginRight: '0.25rem' }} />
+                          {t.location}
+                        </div>
                       </div>
                       <div style={{ marginLeft: 'auto', fontSize: '0.75rem', color: 'var(--text-muted)' }}>
                         ✅ Verified Purchase
@@ -482,7 +486,10 @@ export default function Home() {
       <section className="section map-section" id="map-section">
         <div className="container">
           <div className="section-header reveal visible">
-            <div className="section-label">📍 Visit Our Store</div>
+            <div className="section-label" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', justifyContent: 'center' }}>
+              <img src="/assets/images/location_pin.png" alt="Location" style={{ height: '1.2em', width: 'auto', objectFit: 'contain' }} />
+              Visit Our Store
+            </div>
             <h2 className="section-title">Find <span className="highlight">Us</span> Easily</h2>
             <p className="section-subtitle">Conveniently located at Dingerpur, Pakwara Road, Moradabad</p>
           </div>
@@ -498,7 +505,9 @@ export default function Home() {
               </div>
 
               <div className="map-info-item">
-                <div className="map-info-icon">📍</div>
+                <div className="map-info-icon">
+                  <img src="/assets/images/location_pin.png" alt="Location" style={{ width: '20px', height: '20px', objectFit: 'contain' }} />
+                </div>
                 <div>
                   <div className="map-info-title">Address</div>
                   <div className="map-info-value">Dingerpur, Pakwara Road,<br />Moradabad, Uttar Pradesh</div>
@@ -521,7 +530,7 @@ export default function Home() {
                 <div>
                   <div className="map-info-title">Phone</div>
                   <div className="map-info-value">
-                    <a href="tel:+919876543210" style={{ color: 'var(--primary)' }}>+91-9876543210</a>
+                    <a href="tel:+919639890966" style={{ color: 'var(--primary)' }}>+91-9639890966</a>
                   </div>
                 </div>
               </div>
@@ -535,9 +544,9 @@ export default function Home() {
               </div>
 
               <div className="map-buttons">
-                <a href="tel:+919876543210" className="btn btn-primary">📞 Call Now</a>
+                <a href="tel:+919639890966" className="btn btn-primary">📞 Call Now</a>
                 <a
-                  href="https://wa.me/919876543210?text=Namaste!%20Directions%20chahiye%20Kharshari%20Footwear%20tak"
+                  href="https://wa.me/919639890966?text=Namaste!%20Directions%20chahiye%20Kharshari%20Footwear%20tak"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -545,7 +554,7 @@ export default function Home() {
                   💬 WhatsApp
                 </a>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Kharshari+Footwear+Dingerpur+Pakwara+Road+Moradabad"
+                  href="https://maps.app.goo.gl/Vsoi2rzu7CFqP9j8A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
@@ -554,7 +563,7 @@ export default function Home() {
                   🗺️ Get Directions
                 </a>
                 <a
-                  href="https://g.page/r/search?q=Kharshari+Footwear+Moradabad"
+                  href="https://maps.app.goo.gl/Vsoi2rzu7CFqP9j8A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline"
@@ -567,7 +576,7 @@ export default function Home() {
 
             <div className="map-embed">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3493.4!2d78.7733!3d28.8386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sDingerpur%2C+Pakwara+Road%2C+Moradabad!5e0!3m2!1sen!2sin!4v1720000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.8082295148415!2d78.7107277752927!3d28.725276575614227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ae300252d141f%3A0xc65e5d56030752e8!2sKharsari%20footwear!5e0!3m2!1sen!2sin!4v1783185821098!5m2!1sen!2sin"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -603,14 +612,14 @@ export default function Home() {
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a
-                href="https://wa.me/919876543210?text=Namaste!%20Mujhe%20ek%20specific%20product%20dhundhna%20hai."
+                href="https://wa.me/919639890966?text=Namaste!%20Mujhe%20ek%20specific%20product%20dhundhna%20hai."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-lg"
               >
                 💬 WhatsApp Now
               </a>
-              <a href="tel:+919876543210" className="btn btn-primary btn-lg">
+              <a href="tel:+919639890966" className="btn btn-primary btn-lg">
                 📞 Call Us
               </a>
               <Link to="/contact" className="btn btn-outline btn-lg">

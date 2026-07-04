@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const CHATBOT_CONFIG = {
   name: 'Kharshari Assistant',
-  ownerWhatsApp: '919876543210',
+  ownerWhatsApp: '919639890966',
   shopName: 'Kharshari Footwear',
   address: 'Dingerpur, Pakwara Road, Moradabad, UP',
   hours: '10:00 AM – 9:30 PM (Daily)',
-  phone: '+91-9876543210',
+  phone: '+91-9639890966',
 };
 
 const KB = [
@@ -52,7 +52,7 @@ const KB = [
   },
   {
     triggers: ['delivery', 'home delivery', 'ship', 'online', 'डिलीवरी'],
-    response: `🚚 Delivery Info:\n\n📍 Abhi hamare paas mainly *in-store shopping* hai.\n\n💬 Home delivery ke liye WhatsApp pe baat karein – Moradabad ke andar kuch items pe special arrangement ho sakta hai!\n\n📞 Baat karein: ${CHATBOT_CONFIG.phone}`,
+    response: `🚚 Delivery Info:\n\n Abhi hamare paas mainly *in-store shopping* hai.\n\n💬 Home delivery ke liye WhatsApp pe baat karein – Moradabad ke andar kuch items pe special arrangement ho sakta hai!\n\n📞 Baat karein: ${CHATBOT_CONFIG.phone}`,
     quickReplies: ['WhatsApp karein', 'Store location', 'Call karna hai'],
   },
   {
@@ -160,7 +160,8 @@ export default function Chatbot() {
     
     return escaped
       .replace(/\*(.*?)\*/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br>');
+      .replace(/\n/g, '<br>')
+      .replace(/📍/g, '<img src="/assets/images/location_pin.png" alt="location" style="height:1.1em; width:auto; vertical-align:-0.15em; display:inline-block;" />');
   };
 
   return (
