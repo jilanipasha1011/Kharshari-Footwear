@@ -129,7 +129,7 @@ export default function Footer() {
             </Link>
           </div>
           <div className="footer-bottom-text">
-            <Link to="https://my-portfolio-one-gamma-48.vercel.app/" target="_blank" style={{ color: 'rgba(255, 255, 255, 1)' }}>
+            <Link to="https://my-portfolio-one-gamma-48.vercel.app/" target="_blank" style={{ color: 'rgba(234, 35, 35, 1)' }}>
               Mohammad Jilani's Portfolio Website
             </Link>
           </div>
