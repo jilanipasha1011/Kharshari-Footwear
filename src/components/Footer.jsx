@@ -66,11 +66,11 @@ export default function Footer() {
           <div>
             <div className="footer-heading">Brands</div>
             <div className="footer-links">
-              <Link to="/products?brand=Puma" className="footer-link">🐆 Puma</Link>
-              <Link to="/products?brand=Nike" className="footer-link">✔️ Nike</Link>
-              <Link to="/products?brand=Red+Tape" className="footer-link">🎯 Red Tape</Link>
-              <Link to="/products?brand=One8" className="footer-link">👑 One8</Link>
-              <Link to="/products?brand=Hummer" className="footer-link">🚛 Hummer</Link>
+              <Link to="/products?brand=Puma" className="footer-link">Puma</Link>
+              <Link to="/products?brand=Nike" className="footer-link">Nike</Link>
+              <Link to="/products?brand=Red+Tape" className="footer-link">Red Tape</Link>
+              <Link to="/products?brand=One8" className="footer-link">One8</Link>
+              <Link to="/products?brand=Hummer" className="footer-link">Hummer</Link>
             </div>
           </div>
 
@@ -120,8 +120,7 @@ export default function Footer() {
           <div className="footer-bottom-text">
             © {currentYear} Kharshari Footwear. All rights reserved.
           </div>
-          <div className="footer-bottom-text">Made with ❤️ for Moradabad</div>
-          <div className="footer-bottom-text">
+            <div className="footer-bottom-text">
             <Link to="/contact" style={{ color: 'rgba(255,255,255,0.5)', marginRight: '1rem' }}>
               Privacy Policy
             </Link>
@@ -129,6 +128,12 @@ export default function Footer() {
               Exchange Policy
             </Link>
           </div>
+          <div className="footer-bottom-text">
+            <Link to="https://my-portfolio-one-gamma-48.vercel.app/" target="_blank" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              Mohammad Jilani's Portfolio Website
+            </Link>
+          </div>
+          <div className="footer-bottom-text">Made by Mohammad Jilani Pasha</div>
         </div>
       </div>
     </footer>

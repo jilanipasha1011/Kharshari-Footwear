@@ -203,7 +203,7 @@ export default function Chatbot() {
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;');
-    
+
     return escaped
       .replace(/\*(.*?)\*/g, '<strong>$1</strong>')
       .replace(/\n/g, '<br>')
@@ -251,7 +251,7 @@ export default function Chatbot() {
                 )}
               </div>
             ))}
-            
+
             {isTyping && (
               <div className="chat-message">
                 <div className="chat-bubble bot" style={{ color: 'var(--text-muted)' }}>
@@ -259,7 +259,7 @@ export default function Chatbot() {
                 </div>
               </div>
             )}
-            
+
             <div ref={messagesEndRef} />
           </div>
 
