@@ -11,7 +11,7 @@ const CHATBOT_CONFIG = {
 
 const KB = [
   {
-    triggers: ['hello', 'hi', 'helo', 'asalamualikum', 'aslamualikum', 'hey', 'start', 'help', 'Aslamualikum', ''],
+    triggers: ['hello', 'hi', 'helo', 'namaste', 'namaskar', 'hey', 'start', 'help', 'नमस्ते', 'हैलो'],
     response: `Namaste! 🙏 Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 📍 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
     quickReplies: ['Prices kya hain?', 'Store kahan hai?', 'Timings batao', 'Sizes guide', 'Owner se baat karein'],
   },
@@ -22,7 +22,7 @@ const KB = [
   },
   {
     triggers: ['location', 'address', 'kahan', 'where', 'store', 'shop', 'पता', 'कहां', 'दुकान'],
-    response: `🌏 Hamari shop yahan hai:\n\n🏪 *${CHATBOT_CONFIG.shopName}*\n🌏 ${CHATBOT_CONFIG.address}\n\n🗺️ Google Maps pe "Kharshari Footwear Moradabad" search karein.\n\n🚗 Pakwara Road pe aaiye, Dingerpur ke paas!`,
+    response: `📍 Hamari shop yahan hai:\n\n🏪 *${CHATBOT_CONFIG.shopName}*\n📍 ${CHATBOT_CONFIG.address}\n\n🗺️ Google Maps pe "Kharshari Footwear Moradabad" search karein.\n\n🚗 Pakwara Road pe aaiye, Dingerpur ke paas!`,
     quickReplies: ['Directions chahiye', 'Timings kya hain?', 'Call karna hai'],
   },
   {
@@ -161,7 +161,7 @@ export default function Chatbot() {
     return escaped
       .replace(/\*(.*?)\*/g, '<strong>$1</strong>')
       .replace(/\n/g, '<br>')
-      .replace(/🌏/g, '<img src="/assets/images/location_pin.png" alt="location" style="height:1.1em; width:auto; vertical-align:-0.15em; display:inline-block;" />');
+      .replace(/📍/g, '<img src="/assets/images/location_pin.png" alt="location" style="height:1.1em; width:auto; vertical-align:-0.15em; display:inline-block;" />');
   };
 
   return (
