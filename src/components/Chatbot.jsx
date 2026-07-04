@@ -117,7 +117,10 @@ const KB = [
     quickReplies: ['WhatsApp karein', 'Brands konse hain?'],
   }
 ];
+
 const FALLBACK = `😊 Mujhe yeh samajh nahi aaya. Aap in options mein se choose karein ya seedha owner se baat karein!\n\nMain aapki help karne ki poori koshish karunga! 🙏`;
+
+const SYSTEM_PROMPT = null; // No LLM prompt required
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -180,10 +183,10 @@ export default function Chatbot() {
       const res = getResponse(text);
       setMessages((prev) => [
         ...prev,
-        { sender: 'bot', text: res.text, special: res.special },
+        { sender: 'bot', text: res.text, special: res.special }
       ]);
       setQuickReplies(res.quickReplies || []);
-    }, 850);
+    }, 800);
   };
 
   const handleQuickReplyClick = (reply) => {
@@ -196,7 +199,6 @@ export default function Chatbot() {
   };
 
   const formatText = (text) => {
-    // Escape simple characters and format bold *text* to <strong>
     const escaped = text
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
