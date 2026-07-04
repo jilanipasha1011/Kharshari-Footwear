@@ -11,121 +11,68 @@ const CHATBOT_CONFIG = {
 
 const KB = [
   {
-    triggers: ['hello', 'hi', 'helo', 'asalamualikum', 'aslamualikum', 'hey', 'start', 'help', 'aslamualikum', ''],
-    response: `Walaikum assalam! 🙏 Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 🌏 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
+    triggers: ['hello', 'hi', 'helo', 'asalamualikum', 'aslamualikum', 'hey', 'start', 'help', 'Aslamualikum', ''],
+    response: `Namaste! 🙏 Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 📍 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
     quickReplies: ['Prices kya hain?', 'Store kahan hai?', 'Timings batao', 'Sizes guide', 'Owner se baat karein'],
   },
   {
-    triggers: ['talk', 'owner', 'contact', 'human', 'agent', 'baat', 'बात', 'मालिक', 'संपर्क', 'naam', 'name', 'number', 'phone', 'whatsapp', 'ikram', 'pasha'],
-    response: `💬 Main aapko owner se connect kar raha hoon!\n\nStore ke owner **Mohammad Ikram Pasha** hain. Aap unse directly baat kar sakte hain.\n\n📞 Phone/WhatsApp: ${CHATBOT_CONFIG.phone}\n\nNeeche "Owner se Baat Karein" button dabayein aur directly WhatsApp par chat shuru karein. 🤝`,
-    quickReplies: ['Owner se Baat Karein'],
-    special: 'owner_transfer',
-  },
-  {
-    triggers: ['website', 'developer', 'banaya', 'maker', 'creators', 'jilani', 'dilshad'],
-    response: `🌐 *Website & Chatbot Details:*\n\nYeh digital store aur smart AI assistant **Mohammad Jilani Pasha** ne develop kiya hai. \n\nWebsite design, optimization, ya kisi bhi technical query ke liye aap direct contact kar sakte hain! 🚀`,
-    quickReplies: ['Owner se baat karein', 'Main menu'],
-  },
-  {
-    triggers: ['price', 'prices', 'rate', 'kitna', 'cost', 'कीमत', 'दाम', 'प्राइज़', 'value'],
+    triggers: ['price', 'prices', 'rate', 'kitna', 'cost', 'कीमत', 'दाम', 'प्राइस'],
     response: `💰 Hamare prices range karte hain:\n\n👟 Men's Sneakers: ₹1,299 – ₹4,499\n👠 Women's Sandals: ₹899 – ₹1,999\n👦 Kids Footwear: ₹799 – ₹1,799\n🏃 Sports Shoes: ₹2,599 – ₹4,499\n👔 Formal Shoes: ₹1,799 – ₹2,499\n\n✅ Sab branded aur original hain!\n🔥 Festival aur special offers bhi milte hain.`,
     quickReplies: ['Offer kya hai?', 'Brands konse hain?', 'Enquiry karna hai'],
   },
   {
-    triggers: ['location', 'address', 'kahan', 'where', 'store', 'shop', 'पता', 'कहां', 'दुकान', 'maps', 'google map', 'map'],
+    triggers: ['location', 'address', 'kahan', 'where', 'store', 'shop', 'पता', 'कहां', 'दुकान'],
     response: `🌏 Hamari shop yahan hai:\n\n🏪 *${CHATBOT_CONFIG.shopName}*\n🌏 ${CHATBOT_CONFIG.address}\n\n🗺️ Google Maps pe "Kharshari Footwear Moradabad" search karein.\n\n🚗 Pakwara Road pe aaiye, Dingerpur ke paas!`,
     quickReplies: ['Directions chahiye', 'Timings kya hain?', 'Call karna hai'],
   },
   {
-    triggers: ['time', 'timing', 'open', 'close', 'hours', 'kab', 'समय', 'टाइमिंग', 'खुलta', 'sunday', 'holiday', 'छुट्टी', 'रविवार'],
+    triggers: ['time', 'timing', 'open', 'close', 'hours', 'kab', 'समय', 'टाइमिंग', 'खुलता'],
     response: `🕐 Hamare store timings:\n\n⏰ *10:00 AM – 9:30 PM*\n📅 Saat din khula rehta hai\n\n*Sunday aur holidays pe bhi open hain!*\n\nBest time visit karne ka: Weekday subah 11 baje ke baad — kam bheed hoti hai.`,
     quickReplies: ['Location batao', 'Call karna hai', 'WhatsApp karein'],
   },
   {
-    triggers: ['brand', 'brands', 'konse', 'which', 'ब्रांड', 'कौनसे', 'nike', 'puma', 'red tape', 'one8', 'hummer', 'stock', 'maal'],
-    response: `🏷️ Hamare paas in premium brands ke shoes hain:\n\n👟 *Puma* – Sports & Casual\n👟 *Nike* – Premium Athletic\n👟 *Red Tape* – Formal & Casual\n👟 *One8* – Trendy & Comfortable\n👟 *Hummer* – Rugged & Stylish\n\n✅ Sab *100% Original* aur *Branded* hain! Stock regular update hota hai.`,
+    triggers: ['brand', 'brands', 'konse', 'which', 'ब्रांड', 'कौनसे'],
+    response: `🏷️ Hamare paas in premium brands ke shoes hain:\n\n👟 *Puma* – Sports & Casual\n👟 *Nike* – Premium Athletic\n👟 *Red Tape* – Formal & Casual\n👟 *One8* – Trendy & Comfortable\n👟 *Hummer* – Rugged & Stylish\n\n✅ Sab *100% Original* aur *Branded* hain!`,
     quickReplies: ['Prices kya hain?', 'Offer kya hai?', 'Products dekhne hain'],
   },
   {
-    triggers: ['offer', 'discount', 'sale', 'deal', 'ऑफर', 'छूट', 'सेल', 'eid', 'diwali', 'festival', 'festive'],
-    response: `🔥 Hamare current offers:\n\n🎉 *Festival Sale (Eid/Diwali)* – Up to 33% off\n💰 *Buy 2 Get 1 Free* – Select items\n🏫 *Student Discount* – Extra 5% (Valid Student ID card required)\n📅 *Weekend Specials* – Every Saturday\n⚡ *Flash Deals* – Limited stock items\n\nSabse ache deals ke liye abhi WhatsApp karein!`,
+    triggers: ['offer', 'discount', 'sale', 'deal', 'ऑफर', 'छूट', 'सेल'],
+    response: `🔥 Hamare current offers:\n\n🎉 *Festival Sale* – Up to 33% off\n💰 *Buy 2 Get 1 Free* – Select items\n🏫 *Student Discount* – Extra 5% (ID required)\n📅 *Weekend Specials* – Every Saturday\n⚡ *Flash Deals* – Limited stock items\n\nSabse ache deals ke liye abhi WhatsApp karein!`,
     quickReplies: ['WhatsApp karein', 'Enquiry karna hai', 'Prices kya hain?'],
   },
   {
-    triggers: ['size', 'sizes', 'fitting', 'number', 'साइज', 'नंबर', 'chauda', 'chota', 'bada'],
+    triggers: ['size', 'sizes', 'fitting', 'number', 'साइज', 'नंबर'],
     response: `📏 Size Guide:\n\n👨 *Men's Sizes:* 6 – 11 (Indian)\n👩 *Women's Sizes:* 4 – 9 (Indian)\n👦 *Kids Sizes:* 1 – 7 (Indian)\n\n💡 Tip: Agar aap UK size jaante hain:\n• UK 6 = Indian 7\n• UK 7 = Indian 8\n\nSahi size ke liye store aake try karein ya WhatsApp pe poochein!`,
     quickReplies: ['WhatsApp karein', 'Store visit karein', 'Enquiry karna hai'],
   },
   {
-    triggers: ['return', 'exchange', 'refund', 'policy', 'वापसी', 'एक्सचेंज', 'badal', 'change'],
-    response: `🔄 Hamare Exchange Policy:\n\n✅ *7 din ke andar exchange* kar sakte hain\n✅ Bill zaroori hai\n✅ Shoes unworn aur original box mein honi chahiye\n⚠️ Return/Refund ki jagah *exchange* milta hai\n\nKisi bhi issue ke liye store pe aayein ya call karein!`,
+    triggers: ['return', 'exchange', 'refund', 'policy', 'वापसी', 'एक्सचेंज'],
+    response: `🔄 Hamare Exchange Policy:\n\n✅ *7 din ke andar exchange* kar sakte hain\n✅ Bill zaroori hai\n✅ Shoes unworn aur original box mein honi chahiye\n⚠️ Return ki jagah *exchange* milta hai\n\nKisi bhi issue ke liye store pe aayein ya call karein!`,
     quickReplies: ['Call karna hai', 'WhatsApp karein', 'Location batao'],
   },
   {
-    triggers: ['delivery', 'home delivery', 'ship', 'online', 'डिलीवरी', 'courier', 'bhej', 'charges', 'online booking'],
-    response: `🚚 Delivery Info:\n\nAbhi hamare paas mainly *in-store shopping* aur trial available hai.\n\n💬 Home delivery/Online booking ke liye WhatsApp pe baat karein – Moradabad ke andar kuch items pe special arrangement ho sakta hai! Delivery charges area ke hisaab se honge.\n\n📞 Baat karein: ${CHATBOT_CONFIG.phone}`,
+    triggers: ['delivery', 'home delivery', 'ship', 'online', 'डिलीवरी'],
+    response: `🚚 Delivery Info:\n\n Abhi hamare paas mainly *in-store shopping* hai.\n\n💬 Home delivery ke liye WhatsApp pe baat karein – Moradabad ke andar kuch items pe special arrangement ho sakta hai!\n\n📞 Baat karein: ${CHATBOT_CONFIG.phone}`,
     quickReplies: ['WhatsApp karein', 'Store location', 'Call karna hai'],
   },
   {
-    triggers: ['payment', 'upi', 'cash', 'card', 'paytm', 'gpay', 'भुगतान', 'पेमेंट', 'debit', 'credit'],
-    response: `💳 Payment Options:\n\n✅ *Cash* – Hamesha accepted\n✅ *UPI* – PhonePe, Google Pay, Paytm\n✅ *Debit / Credit Cards* – Sabhi major cards accepted\n✅ *Net Banking*\n\nSab taraf se aasaan payment!`,
+    triggers: ['payment', 'upi', 'cash', 'card', 'paytm', 'gpay', 'भुगतान', 'पेमेंट'],
+    response: `💳 Payment Options:\n\n✅ *Cash* – Hamesha accepted\n✅ *UPI* – PhonePe, Google Pay, Paytm\n✅ *Debit / Credit Cards*\n✅ *Net Banking*\n\nSab taraf se aasaan payment!`,
     quickReplies: ['Prices kya hain?', 'Enquiry karna hai', 'Store visit karein'],
   },
   {
-    triggers: ['talk', 'owner', 'contact', 'human', 'agent', 'baat', 'बात', 'मालिक', 'संपर्क', 'naam', 'name', 'number', 'phone', 'whatsapp'],
-    response: `💬 Main aapko owner se connect kar raha hoon!\n\nOwner ka WhatsApp/Phone number ye hai: ${CHATBOT_CONFIG.phone}\n\nNeeche "Owner se Baat Karein" button dabayein aur directly WhatsApp par chat shuru karein. 🤝`,
-    quickReplies: ['Owner se Baat Karein'],
+    triggers: ['talk', 'owner', 'contact', 'human', 'agent', 'baat', 'बात', 'मालिक', 'संपर्क'],
+    response: `💬 Main aapko owner se connect kar raha hoon!\n\nNeeche "Owner se Baat Karein" button dabayein aur WhatsApp pe directly baat karein. 🤝`,
+    quickReplies: ['Owner से WhatsApp करें'],
     special: 'owner_transfer',
   },
   {
-    triggers: ['enquiry', 'enquire', 'buy', 'purchase', 'order', 'खरीदna', 'एनक्वायरी', 'booking'],
+    triggers: ['enquiry', 'enquire', 'buy', 'purchase', 'order', 'खरीदna', 'एनक्वायरी'],
     response: `📝 Enquiry karne ke liye:\n\n1️⃣ Product select karein website pe\n2️⃣ "Enquire Now" button dabayein\n3️⃣ Ya seedha WhatsApp pe message karein\n\nHum bahut jaldi reply karte hain! ⚡`,
     quickReplies: ['WhatsApp karein', 'Owner se baat karein', 'Products dekhne hain'],
   },
-  
-  // --- Naye Add Kiye Gaye Questions ---
-  
-  {
-    triggers: ['original', 'duplicate', 'copy', 'first copy', 'real', 'asli', 'नकली', 'असली'],
-    response: `💯 *100% Original ki Guarantee!*\n\n${CHATBOT_CONFIG.shopName} par aapko sirf aur sirf **100% Original aur Branded** shoes hi milenge. Hum duplicate ya first copy products nahi bechte hain. Aap befikar hoke shopping kar sakte hain! ✅`,
-    quickReplies: ['Brands konse hain?', 'Prices kya hain?', 'Store location'],
-  },
-  {
-    triggers: ['parking', 'gaadi', 'car', 'bike', 'पार्किंग'],
-    response: `🅿️ *Parking Info:*\n\nHaan ji! Store par aapke vehicle (Bike/Car) ke liye **safe aur free parking** space available hai. Aap aaram se apni gaadi park karke shopping kar sakte hain. 🚗🏍️`,
-    quickReplies: ['Store location', 'Timings batao'],
-  },
-  {
-    triggers: ['popular', 'best', 'trending', 'chalta', 'favourite', 'famous', 'फेमस'],
-    response: `🔥 *Hamare Most Popular Shoes:*\n\n1️⃣ **Puma Casual Sneakers** – Sabse zyada trend mein hain.\n2️⃣ **Nike Athletic Wear** – Running aur gym ke liye best sellers.\n3️⃣ **Red Tape Comfort Series** – Daily use aur office ke liye customer choice.\n\nNew arrivals dekhne ke liye store visit karein ya WhatsApp karein!`,
-    quickReplies: ['Products dekhne hain', 'Prices kya hain?', 'WhatsApp karein'],
-  },
-  {
-    triggers: ['collection', 'ladies', 'kids', 'women', 'girl', 'boy', 'bacho', 'महिला', 'बच्चे'],
-    response: `👪 *Complete Family Collection!*\n\nHamare paas sabhi ke liye wide range available hai:\n\n👟 **Men's:** Sneakers, Formals, Sports Shoes\n👠 **Ladies/Women's:** Trendy Sandals, Casual Shoes, Flats\n👦 **Kids:** Comfortable aur stylish school & casual footwear\n\nPoori family ke liye ek hi jagah sab kuch! ✨`,
-    quickReplies: ['Prices kya hain?', 'Store location', 'Offers kya hain?'],
-  },
-  {
-    triggers: ['bulk', 'wholesale', 'wholesale rate', 'jyada', 'heavy discount', 'थोक'],
-    response: `📦 *Bulk / Wholesale Orders:*\n\nHaan ji, agar aap bulk mein order dena chahte hain (functions, schools, ya commercial purpose ke liye), toh aapko **Special Wholesale Discounts** mil jayenge.\n\nIske liye aap directly owner se WhatsApp par baat karke best quote le sakte hain!`,
-    quickReplies: ['Owner se baat karein', 'WhatsApp karein'],
-  },
-  {
-    triggers: ['custom', 'design', 'order order', 'bana', 'customization'],
-    response: `🛠️ *Custom Orders:*\n\nFilhal hum personalized ya custom-made shoes manufacture nahi karte hain. Hum sirf leading standard brands (Nike, Puma, Red Tape, etc.) ke official aur original designs hi sell karte hain. ✨`,
-    quickReplies: ['Brands konse hain?', 'New arrivals kab aate hain?'],
-  },
-  {
-    triggers: ['new', 'arrival', 'stock kab', 'nayan', 'latest', 'नया'],
-    response: `🚀 *New Arrivals & Latest Stock:*\n\nHamara stock **har 2-3 hafte mein** refresh hota hai! Sabhi trending aur latest designs aate rehte hain.\n\nJab bhi naya stock aata hai, hum apne WhatsApp status par update karte hain. Status dekhne ke liye hamara number save karein! 📲`,
-    quickReplies: ['WhatsApp karein', 'Brands konse hain?'],
-  },
-  {
-    triggers: ['website', 'developer', 'banaya', 'maker', 'creators'],
-    response: `🌐 *Website & Chatbot Details:*\n\nYeh smart assistant aur website hamare customers ki help ke liye banayi gayi hai taaki aapko digital shop experience mil sake. \n\nWebsite ya orders ke kisi bhi tech issue ke liye aap humse WhatsApp par contact kar sakte hain! Technical support team aapki help karegi.`,
-    quickReplies: ['Owner se baat karein', 'Main menu'],
-  }
 ];
+
 const FALLBACK = `😊 Mujhe yeh samajh nahi aaya. Aap in options mein se choose karein ya seedha owner se baat karein!\n\nMain aapki help karne ki poori koshish karunga! 🙏`;
 
 export default function Chatbot() {
