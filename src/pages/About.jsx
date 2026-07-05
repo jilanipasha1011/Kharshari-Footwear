@@ -320,58 +320,56 @@ export default function About() {
             </h2>
           </div>
 
-          <div className="grid-5 reveal-stagger visible" style={{ gap: '1.5rem' }}>
-            <Link to="/products?brand=Puma" className="card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🐆</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
-                PUMA
-              </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Sports & Casual</div>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 700 }}>
-                View Collection →
-              </div>
-            </Link>
-            <Link to="/products?brand=Nike" className="card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✔️</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
-                NIKE
-              </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Premium Athletic</div>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 700 }}>
-                View Collection →
-              </div>
-            </Link>
-            <Link to="/products?brand=Red+Tape" className="card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🎯</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
-                RED TAPE
-              </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Formal & Casual</div>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 700 }}>
-                View Collection →
-              </div>
-            </Link>
-            <Link to="/products?brand=One8" className="card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>👑</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
-                ONE8
-              </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Trendy & Stylish</div>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 700 }}>
-                View Collection →
-              </div>
-            </Link>
-            <Link to="/products?brand=Hummer" className="card" style={{ padding: '2rem 1.5rem', textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🚛</div>
-              <div style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>
-                HUMMER
-              </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Rugged & Durable</div>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 700 }}>
-                View Collection →
-              </div>
-            </Link>
+          <div className="brands-section">
+        <div className="brands-header">Official Stockist Of Premium Brands</div>
+        <div className="marquee-container">
+          <div className="marquee-track" id="marqueeTrack">
+            {/* Original set */}
+            <div className="brand-logo-item">
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+              <div className="brand-logo-name">PUMA</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+              <div className="brand-logo-name">NIKE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+              <div className="brand-logo-name">RED TAPE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+              <div className="brand-logo-name">ONE8</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+              <div className="brand-logo-name">HUMMER</div>
+            </div>
+            {/* Duplicate for seamless loop */}
+            <div className="brand-logo-item">
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+              <div className="brand-logo-name">PUMA</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+              <div className="brand-logo-name">NIKE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+              <div className="brand-logo-name">RED TAPE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+              <div className="brand-logo-name">ONE8</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+              <div className="brand-logo-name">HUMMER</div>
+            </div>
           </div>
+        </div>
+      </div>
+
         </div>
       </section>
 
