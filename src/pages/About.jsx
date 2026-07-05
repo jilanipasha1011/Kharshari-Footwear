@@ -200,55 +200,58 @@ export default function About() {
             <p className="section-subtitle">Yeh wajahaat hain jo hamare customers baar baar wapas aate hain</p>
           </div>
 
-          <div className="trust-grid reveal-stagger visible">
-            <div className="trust-card">
-              <span className="trust-icon">✅</span>
-              <h3 className="trust-title">100% Original Brands</h3>
-              <p className="trust-desc">
-                Sab products direct official channels se aate hain. Guaranteed authentic — koi duplicate, koi compromise
-                nahi.
-              </p>
+          <div className="brands-section">
+        <div className="brands-header">Official Stockist Of Premium Brands</div>
+        <div className="marquee-container">
+          <div className="marquee-track" id="marqueeTrack">
+            {/* Original set */}
+            <div className="brand-logo-item">
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+              <div className="brand-logo-name">PUMA</div>
             </div>
-            <div className="trust-card">
-              <span className="trust-icon">💰</span>
-              <h3 className="trust-title">Moradabad Mein Best Price</h3>
-              <p className="trust-desc">
-                Humari prices market mein sabse competitive hain. Kahin aur sasta mile to bataiye — hum match ya better
-                karenge!
-              </p>
+            <div className="brand-logo-item">
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+              <div className="brand-logo-name">NIKE</div>
             </div>
-            <div className="trust-card">
-              <span className="trust-icon">👨‍👩‍👧‍👦</span>
-              <h3 className="trust-title">Puri Family Ke Liye</h3>
-              <p className="trust-desc">
-                Men, women, kids — sab ke liye ek hi jagah bharpoor variety. Family shopping ki zaroorat ek hi trip mein
-                poori.
-              </p>
+            <div className="brand-logo-item">
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+              <div className="brand-logo-name">RED TAPE</div>
             </div>
-            <div className="trust-card">
-              <span className="trust-icon">🆕</span>
-              <h3 className="trust-title">Hamesha Naya Collection</h3>
-              <p className="trust-desc">
-                Brand new arrivals, seasonal trends aur limited edition pieces hamesha available. Stock fresh rehta hai.
-              </p>
+            <div className="brand-logo-item">
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+              <div className="brand-logo-name">ONE8</div>
             </div>
-            <div className="trust-card">
-              <span className="trust-icon">😊</span>
-              <h3 className="trust-title">Dil Se Service</h3>
-              <p className="trust-desc">
-                Hamare trained staff aapko bilkul apne jaisa feel karate hain. Proper guidance, no pressure shopping.
-              </p>
+            <div className="brand-logo-item">
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+              <div className="brand-logo-name">HUMMER</div>
             </div>
-            <div className="trust-card">
-              <span className="trust-icon">⭐</span>
-              <h3 className="trust-title">Hazaaron Ka Bharosa</h3>
-              <p className="trust-desc">
-                5000 se zyada khush customers aur unka continued trust hamari sabse badi achievement aur motivation hai.
-              </p>
+            {/* Duplicate for seamless loop */}
+            <div className="brand-logo-item">
+              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+              <div className="brand-logo-name">PUMA</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+              <div className="brand-logo-name">NIKE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+              <div className="brand-logo-name">RED TAPE</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+              <div className="brand-logo-name">ONE8</div>
+            </div>
+            <div className="brand-logo-item">
+              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+              <div className="brand-logo-name">HUMMER</div>
             </div>
           </div>
         </div>
+      </div>
+        </div>
       </section>
+      
 
       {/* ─── STORE EXPERIENCE ───────────────────────────────────── */}
       <section className="section" style={{ background: 'var(--bg-base)' }}>
