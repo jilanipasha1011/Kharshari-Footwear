@@ -183,7 +183,7 @@ export default function Home() {
       <section className="section" style={{ background: 'var(--bg-base)' }} id="categories">
         <div className="container">
           <div className="section-header reveal visible">
-            <div className="section-label">🛍️ Shop by Category</div>
+            <div className="section-label">🛍️ 100% Original Shoes-Authentic Quality Guaranteed</div>
             <h2 className="section-title">Find Your Perfect <span className="highlight">Pair</span></h2>
             <p className="section-subtitle">From sports to formal, we have every style covered for Men, Women, and Kids</p>
           </div>
@@ -194,11 +194,8 @@ export default function Home() {
                 <img src="/assets/images/one8.png" alt="Men's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
-                    Men's Collection
-                  </div>
-                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Shoes & Sneakers</div>
-                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹1,299</div>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Sports & Casual Shoes</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}></div>
                 </div>
               </div>
             </Link>
@@ -208,11 +205,8 @@ export default function Home() {
                 <img src="/assets/images/hummer.png" alt="Women's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
-                    Women's Collection
-                  </div>
-                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Sandals & Slippers</div>
-                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹899</div>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Authentic Quality Footwear</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹3,800</div>
                 </div>
               </div>
             </Link>
@@ -222,11 +216,8 @@ export default function Home() {
                 <img src="/assets/images/nike.png" alt="Kids Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
-                    Kids Collection
-                  </div>
-                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Fun Footwear</div>
-                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹799</div>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Premium Original Shoes</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹11,197</div>
                 </div>
               </div>
             </Link>
@@ -236,11 +227,29 @@ export default function Home() {
                 <img src="/assets/images/puma.png" alt="Sports Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
-                  <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
-                    Sports Collection
-                  </div>
-                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Running & Gym</div>
-                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹2,599</div>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Premium Original Shoes</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹8,999</div>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/products?cat=sports" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
+              <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
+                <img src="/assets/images/redtape.png" alt="Sports Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Built to Perform</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹2,189</div>
+                </div>
+              </div>
+            </Link>
+            <Link to="/products?cat=sports" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
+              <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
+                <img src="/assets/images/campus.png" alt="Sports Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
+                  <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>All-Day Comfort</div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>From ₹1,548</div>
                 </div>
               </div>
             </Link>
