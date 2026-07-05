@@ -191,7 +191,7 @@ export default function Home() {
           <div className="grid-auto reveal-stagger visible">
             <Link to="/products?cat=mens" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
               <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
-                <img src="/assets/images/mens_shoes.png" alt="Men's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <img src="/assets/images/one8.png" alt="Men's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
                   <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
@@ -205,7 +205,7 @@ export default function Home() {
 
             <Link to="/products?cat=womens" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
               <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
-                <img src="/assets/images/womens_sandals.png" alt="Women's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <img src="/assets/images/hummer.png" alt="Women's Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
                   <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
@@ -219,7 +219,7 @@ export default function Home() {
 
             <Link to="/products?cat=kids" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
               <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
-                <img src="/assets/images/kids_shoes.png" alt="Kids Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <img src="/assets/images/nike.png" alt="Kids Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
                   <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>
@@ -233,7 +233,7 @@ export default function Home() {
 
             <Link to="/products?cat=sports" className="card" style={{ overflow: 'hidden', textDecoration: 'none', display: 'block' }}>
               <div style={{ position: 'relative', aspectRatio: '4/3', overflow: 'hidden' }}>
-                <img src="/assets/images/sports_shoes.png" alt="Sports Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
+                <img src="/assets/images/puma.png" alt="Sports Shoes" className="img-cover" style={{ transition: 'transform 0.5s ease' }} />
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
                   <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent-light)', marginBottom: '4px' }}>

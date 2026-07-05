@@ -120,7 +120,7 @@ export default function Footer() {
           <div className="footer-bottom-text">
             © {currentYear} Kharshari Footwear. All rights reserved.
           </div>
-            <div className="footer-bottom-text">
+          <div className="footer-bottom-text">
             <Link to="/contact" style={{ color: 'rgba(255,255,255,0.5)', marginRight: '1rem' }}>
               Privacy Policy
             </Link>
