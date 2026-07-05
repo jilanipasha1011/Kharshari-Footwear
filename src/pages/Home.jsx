@@ -195,7 +195,7 @@ export default function Home() {
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(7,13,30,0.85) 0%, transparent 60%)' }}></div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '1.5rem', color: 'white' }}>
                   <div style={{ fontSize: '1.3rem', fontWeight: 800 }}>Sports & Casual Shoes</div>
-                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}></div>
+                  <div style={{ fontSize: '0.85rem', opacity: 0.75, marginTop: '4px' }}>13,999</div>
                 </div>
               </div>
             </Link>
