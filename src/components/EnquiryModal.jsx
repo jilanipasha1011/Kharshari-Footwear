@@ -71,7 +71,7 @@ export default function EnquiryModal() {
     msg += `━━━━━━━━━━━━━━━━━━\n`;
     msg += `_Sent via Kharshari Footwear Website_`;
 
-    const waUrl = `https://wa.me/919639890966?text=${encodeURIComponent(msg)}`;
+    const waUrl = `https://wa.me/919528009500?text=${encodeURIComponent(msg)}`;
 
     setIsSuccess(true);
     showToast('Enquiry bhej diya! WhatsApp khul raha hai... 💬', 'success', 4000);

@@ -2,22 +2,22 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const CHATBOT_CONFIG = {
   name: 'Kharshari Assistant',
-  ownerWhatsApp: '919639890966',
+  ownerWhatsApp: '919528009500',
   shopName: 'Kharshari Footwear',
   address: 'Dingerpur, Pakwara Road, Moradabad, UP',
   hours: '10:00 AM – 9:30 PM (Daily)',
-  phone: '+91-9639890966',
+  phone: '+91-95280-09500',
 };
 
 const KB = [
   {
-    triggers: ['asalamualikum', 'aslamualikum', 'salam', 'assalamu alaikum', 'assalamualaikum', 'walekum', 'walaikum'],
+    triggers: ['hello', 'asalamualikum', 'hi', 'assalamu alaikum', 'assalamualaikum', 'walekum', 'walaikum'],
     response: `walaikumassalam wa rahmatullah wa barkatahu! Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 🌏 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
     quickReplies: ['Prices kya hain?', 'Store kahan hai?', 'Timings batao', 'Sizes guide', 'Owner se baat karein'],
   },
   {
-    triggers: ['hello', 'hi', 'helo', 'namaste', 'namaskar', 'hey', 'start', 'help', 'नमस्ते', 'हैलो'],
-    response: `Namaste! 🙏 Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 🌏 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
+    triggers: ['hello', 'hi', 'helo', 'asalamualikum', 'asalamualikum', 'hey', 'start', 'help', 'asalamwalekum', 'हैलो'],
+    response: `Asalamualikum  Welcome to *${CHATBOT_CONFIG.shopName}*!\n\nMain aapka assistant hoon. Aap mujhse pooch sakte hain:\n• 👟 Shoes ke baare mein\n• 💰 Prices aur offers\n• 🌏 Store location\n• 🕐 Timings\n• 👟 Sizes guide\n• 💬 Owner se baat karein`,
     quickReplies: ['Prices kya hain?', 'Store kahan hai?', 'Timings batao', 'Sizes guide', 'Owner se baat karein'],
   },
   {
@@ -144,7 +144,7 @@ export default function Chatbot() {
       setIsTyping(true);
       setTimeout(() => {
         setIsTyping(false);
-        const greeting = KB[0];
+        const greeting = KB[1];
         setMessages([{ sender: 'bot', text: greeting.response, special: null }]);
         setQuickReplies(greeting.quickReplies);
       }, 800);

@@ -49,7 +49,7 @@ export default function Contact() {
     msg += `━━━━━━━━━━━━━━━━━━\n`;
     msg += `_Sent via Kharshari Footwear Website_`;
 
-    const waUrl = `https://wa.me/919639890966?text=${encodeURIComponent(msg)}`;
+    const waUrl = `https://wa.me/919528009500?text=${encodeURIComponent(msg)}`;
 
     setIsSuccess(true);
     showToast('Enquiry bhej diya! WhatsApp khul raha hai... 💬', 'success', 4000);
@@ -148,7 +148,7 @@ export default function Contact() {
         <div className="container">
           <div className="grid-4 reveal-stagger visible" style={{ gap: '1.5rem', marginTop: '-3rem', position: 'relative', zIndex: 5 }}>
             <a
-              href="tel:+919639890966"
+              href="tel:+919528009500"
               className="card"
               style={{ padding: '2rem', textAlign: 'center', textDecoration: 'none', borderTop: '3px solid var(--primary)' }}
             >
@@ -165,12 +165,12 @@ export default function Contact() {
               >
                 Call Us
               </div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9639890966</div>
+              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-95280-09500</div>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Tap to call instantly</div>
             </a>
 
             <a
-              href="https://wa.me/919639890966?text=Namaste!%20Kharshari%20Footwear%20se%20baat%20karni%20hai."
+              href="https://wa.me/919528009500?text=Namaste!%20Kharshari%20Footwear%20se%20baat%20karni%20hai."
               target="_blank"
               rel="noopener noreferrer"
               className="card"
@@ -189,7 +189,7 @@ export default function Contact() {
               >
                 WhatsApp
               </div>
-              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-9639890966</div>
+              <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)' }}>+91-95280-09500</div>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Quick reply guaranteed</div>
             </a>
 
@@ -326,11 +326,11 @@ export default function Contact() {
 
               {/* Direct Action Buttons */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <a href="tel:+919639890966" className="btn btn-primary">
-                  📞 Call Now — +91-9639890966
+                <a href="tel:+919528009500" className="btn btn-primary">
+                  📞 Call Now — +91-95280-09500
                 </a>
                 <a
-                  href="https://wa.me/919639890966?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20baare%20mein%20enquiry%20karna%20chahta%20hoon."
+                  href="https://wa.me/919528009500?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20baare%20mein%20enquiry%20karna%20chahta%20hoon."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -488,8 +488,8 @@ export default function Contact() {
                 <div>
                   <div className="map-info-title">Phone / WhatsApp</div>
                   <div className="map-info-value">
-                    <a href="tel:+919639890966" style={{ color: 'var(--primary)' }}>
-                      +91-9639890966
+                    <a href="tel:+919528009500" style={{ color: 'var(--primary)' }}>
+                      +91-95280-09500
                     </a>
                   </div>
                 </div>
@@ -510,9 +510,9 @@ export default function Contact() {
               </div>
 
               <div className="map-buttons">
-                <a href="tel:+919639890966" className="btn btn-primary">📞 Call Now</a>
+                <a href="tel:+919528009500" className="btn btn-primary">📞 Call Now</a>
                 <a
-                  href="https://wa.me/919639890966?text=Directions%20chahiye%20Kharshari%20Footwear%20tak"
+                  href="https://wa.me/919528009500?text=Directions%20chahiye%20Kharshari%20Footwear%20tak"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -567,7 +567,7 @@ export default function Contact() {
 
           <div className="social-grid reveal-stagger visible">
             <a
-              href="https://wa.me/919639890966"
+              href="https://wa.me/919528009500"
               target="_blank"
               rel="noopener noreferrer"
               className="social-card"

@@ -37,7 +37,7 @@ export default function Footer() {
                 👍
               </a>
               <a
-                href="https://wa.me/919639890966"
+                href="https://wa.me/919528009500"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-social-btn"
@@ -45,7 +45,7 @@ export default function Footer() {
               >
                 💬
               </a>
-              <a href="tel:+919639890966" className="footer-social-btn" title="Phone">
+              <a href="tel:+919528009500" className="footer-social-btn" title="Phone">
                 📞
               </a>
             </div>
@@ -84,14 +84,14 @@ export default function Footer() {
             </div>
             <div className="footer-contact-item">
               <span className="footer-contact-icon">📞</span>
-              <a href="tel:+919639890966" style={{ color: 'inherit' }}>
-                +91-9639890966
+              <a href="tel:+919528009500" style={{ color: 'inherit' }}>
+                +91-95280-09500
               </a>
             </div>
             <div className="footer-contact-item">
               <span className="footer-contact-icon">💬</span>
               <a
-                href="https://wa.me/919639890966"
+                href="https://wa.me/919528009500"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: 'inherit' }}
@@ -105,7 +105,7 @@ export default function Footer() {
             </div>
             <div style={{ marginTop: '1rem' }}>
               <a
-                href="https://wa.me/919639890966"
+                href="https://wa.me/919528009500"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-sm"

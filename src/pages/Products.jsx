@@ -279,7 +279,7 @@ export default function Products() {
                   WhatsApp pe puchein — hum arrange kar sakte hain!
                 </div>
                 <a
-                  href="https://wa.me/919639890966?text=Mujhe%20ek%20specific%20size%20chahiye"
+                  href="https://wa.me/919528009500?text=Mujhe%20ek%20specific%20size%20chahiye"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp btn-sm"

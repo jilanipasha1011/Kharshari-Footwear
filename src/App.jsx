@@ -61,7 +61,7 @@ function LayoutShell({ children }) {
       <div className="floating-whatsapp">
         <div className="floating-whatsapp-tooltip">Chat on WhatsApp</div>
         <a
-          href={`https://wa.me/919639890966?text=${waMsg}`}
+          href={`https://wa.me/919528009500?text=${waMsg}`}
           target="_blank"
           rel="noopener noreferrer"
           className="floating-whatsapp-btn"

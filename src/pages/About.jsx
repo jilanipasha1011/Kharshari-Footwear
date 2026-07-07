@@ -201,57 +201,57 @@ export default function About() {
           </div>
 
           <div className="brands-section">
-        <div className="brands-header">Official Stockist Of Premium Brands</div>
-        <div className="marquee-container">
-          <div className="marquee-track" id="marqueeTrack">
-            {/* Original set */}
-            <div className="brand-logo-item">
-              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
-              <div className="brand-logo-name">PUMA</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
-              <div className="brand-logo-name">NIKE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
-              <div className="brand-logo-name">RED TAPE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
-              <div className="brand-logo-name">ONE8</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
-              <div className="brand-logo-name">HUMMER</div>
-            </div>
-            {/* Duplicate for seamless loop */}
-            <div className="brand-logo-item">
-              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
-              <div className="brand-logo-name">PUMA</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
-              <div className="brand-logo-name">NIKE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
-              <div className="brand-logo-name">RED TAPE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
-              <div className="brand-logo-name">ONE8</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
-              <div className="brand-logo-name">HUMMER</div>
+            <div className="brands-header">Official Stockist Of Premium Brands</div>
+            <div className="marquee-container">
+              <div className="marquee-track" id="marqueeTrack">
+                {/* Original set */}
+                <div className="brand-logo-item">
+                  <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">PUMA</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">NIKE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">RED TAPE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">ONE8</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">HUMMER</div>
+                </div>
+                {/* Duplicate for seamless loop */}
+                <div className="brand-logo-item">
+                  <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">PUMA</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">NIKE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">RED TAPE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">ONE8</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">HUMMER</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-        </div>
       </section>
-      
+
 
       {/* ─── STORE EXPERIENCE ───────────────────────────────────── */}
       <section className="section" style={{ background: 'var(--bg-base)' }}>
@@ -321,54 +321,54 @@ export default function About() {
           </div>
 
           <div className="brands-section">
-        <div className="brands-header">Official Stockist Of Premium Brands</div>
-        <div className="marquee-container">
-          <div className="marquee-track" id="marqueeTrack">
-            {/* Original set */}
-            <div className="brand-logo-item">
-              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
-              <div className="brand-logo-name">PUMA</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
-              <div className="brand-logo-name">NIKE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
-              <div className="brand-logo-name">RED TAPE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
-              <div className="brand-logo-name">ONE8</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
-              <div className="brand-logo-name">HUMMER</div>
-            </div>
-            {/* Duplicate for seamless loop */}
-            <div className="brand-logo-item">
-              <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
-              <div className="brand-logo-name">PUMA</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
-              <div className="brand-logo-name">NIKE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
-              <div className="brand-logo-name">RED TAPE</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
-              <div className="brand-logo-name">ONE8</div>
-            </div>
-            <div className="brand-logo-item">
-              <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
-              <div className="brand-logo-name">HUMMER</div>
+            <div className="brands-header">Official Stockist Of Premium Brands</div>
+            <div className="marquee-container">
+              <div className="marquee-track" id="marqueeTrack">
+                {/* Original set */}
+                <div className="brand-logo-item">
+                  <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">PUMA</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">NIKE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">RED TAPE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">ONE8</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">HUMMER</div>
+                </div>
+                {/* Duplicate for seamless loop */}
+                <div className="brand-logo-item">
+                  <img src="/assets/images/puma.png" alt="puma" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">PUMA</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/nike.png" alt="nike" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">NIKE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/redtape.png" alt="redtape" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">RED TAPE</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/one8.png" alt="one8" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">ONE8</div>
+                </div>
+                <div className="brand-logo-item">
+                  <img src="/assets/images/hummer.png" alt="hummer" className="brand-logo-emoji" />
+                  <div className="brand-logo-name">HUMMER</div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
         </div>
       </section>
@@ -480,7 +480,7 @@ export default function About() {
               👟 Browse Products
             </Link>
             <a
-              href="https://wa.me/919639890966"
+              href="https://wa.me/919528009500"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp btn-lg"

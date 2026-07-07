@@ -89,7 +89,7 @@ export default function Home() {
                 👟 Shop Now
               </Link>
               <a
-                href="https://wa.me/919639890966?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20products%20dekhna%20chahta%20hoon."
+                href="https://wa.me/919528009500?text=Namaste!%20Main%20Kharshari%20Footwear%20ke%20products%20dekhna%20chahta%20hoon."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-lg"
@@ -308,7 +308,7 @@ export default function Home() {
                 <div className="offer-title">Buy 2 Get 1 Free</div>
                 <div className="offer-desc">On selected styles — limited time</div>
               </div>
-              <a href="https://wa.me/919639890966?text=Buy%202%20Get%201%20offer%20ke%20baare%20mein%20poochna%20hai" target="_blank" rel="noopener noreferrer" className="offer-cta">Enquire →</a>
+              <a href="https://wa.me/919528009500?text=Buy%202%20Get%201%20offer%20ke%20baare%20mein%20poochna%20hai" target="_blank" rel="noopener noreferrer" className="offer-cta">Enquire →</a>
             </div>
 
             <div className="offer-banner offer-banner-3">
@@ -539,7 +539,7 @@ export default function Home() {
                 <div>
                   <div className="map-info-title">Phone</div>
                   <div className="map-info-value">
-                    <a href="tel:+919639890966" style={{ color: 'var(--primary)' }}>+91-9639890966</a>
+                    <a href="tel:+919528009500" style={{ color: 'var(--primary)' }}>+91-95280-09500</a>
                   </div>
                 </div>
               </div>
@@ -553,9 +553,9 @@ export default function Home() {
               </div>
 
               <div className="map-buttons">
-                <a href="tel:+919639890966" className="btn btn-primary">📞 Call Now</a>
+                <a href="tel:+919528009500" className="btn btn-primary">📞 Call Now</a>
                 <a
-                  href="https://wa.me/919639890966?text=Namaste!%20Directions%20chahiye%20Kharshari%20Footwear%20tak"
+                  href="https://wa.me/919528009500?text=Namaste!%20Directions%20chahiye%20Kharshari%20Footwear%20tak"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp"
@@ -621,14 +621,14 @@ export default function Home() {
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a
-                href="https://wa.me/919639890966?text=Namaste!%20Mujhe%20ek%20specific%20product%20dhundhna%20hai."
+                href="https://wa.me/919528009500?text=Namaste!%20Mujhe%20ek%20specific%20product%20dhundhna%20hai."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp btn-lg"
               >
                 💬 WhatsApp Now
               </a>
-              <a href="tel:+919639890966" className="btn btn-primary btn-lg">
+              <a href="tel:+919528009500" className="btn btn-primary btn-lg">
                 📞 Call Us
               </a>
               <Link to="/contact" className="btn btn-outline btn-lg">
